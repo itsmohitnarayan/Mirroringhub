@@ -1,0 +1,19 @@
+{
+  "name": "mirroringhub",
+  "version": "1.0.0",
+  "description": "an app for screen mirroring",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "usb": "^2.14.0",
+    "ws": "^8.18.0",
+    "child_process": "^1.0.2"
+  },
+  "devDependencies": {}
+}
